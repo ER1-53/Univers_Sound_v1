@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     var heartbeatAudio = document.getElementById('heartbeatAudio');
     heartbeatAudio.play();
-    
+
     // Le rythme du battement de cœur en millisecondes
     var heartbeatInterval = 2000;
 
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Démarrez l'animation à intervalles réguliers
     setInterval(heartbeat, heartbeatInterval);
-});
+});*/
     // Utilisation de setTimeout pour déclencher la redirection après 8 secondes
 setTimeout(function() {
   // Remplacez "nouvelle-page.html" par le chemin de la nouvelle page
