@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniverSound</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Akaya Kanadaka", system-ui;
+            background-color: black;
+            color: aliceblue;
+            
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.text p {
+        margin: 0;
+        font-size: 40px;
+        opacity: 0;
+        animation: fade-in ease-in 6s forwards;
+        animation: fade-out 8s ease-in-out forwards
+        /* Fade-in animation for text starting after 9 seconds */
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            40% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fade-out {
+            60% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+.text h1 {
+    height: 39px;
+    margin: 0;
+    opacity: 0;
+    animation: fade-in 1s ease-in 8s forwards;
+    /* Fade-in animation for text starting after 9 seconds */
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="text">
+        <p>Your Style</p>
+        <h1>Universe revealed on March 21, 2024</h1>
+        <p>Your Sound</p>
+        <h1></h1>
+        <p>Your Universe</p>
+    </div>
+</body>
+</html>
